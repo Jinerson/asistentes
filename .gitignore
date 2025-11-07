@@ -1,0 +1,6 @@
+src/
+tests/
+.env
+poetry.lock
+pyproyect.toml
+README.MD
