@@ -1,2 +1,23 @@
 2025-11-06_22:06:05 | INFO | src.loggers | functions.py:133 | Variables de entorno 'APY_KEY', 'GITHUB_TOKEN', 'REPO_URL', 'GITHUB_USER'encontradas y cargadas.
 2025-11-06_22:06:05 | INFO | src.loggers | main.py:15 | Iniciando ejecucion principal para monitoreo de asistentes OpenAI...
+2025-11-06_22:06:08 | INFO | src.loggers | assistants.py:174 | Se cargaron 2 asistentes del cliente.
+2025-11-06_22:06:08 | INFO | src.loggers | assistants.py:29 | Cliente asociado exitosamente.
+2025-11-06_22:06:08 | INFO | src.loggers | assistants.py:73 | Aistente asst_n6Gf4NYfgyhVYhi3IZetcQBP cargado con exito.
+2025-11-06_22:06:08 | INFO | src.loggers | main.py:25 | Cliente asst_... cargado con exito.
+2025-11-06_22:06:09 | INFO | src.loggers | assistants.py:161 | Configuracion del asistente cargada con exito.
+2025-11-06_22:06:09 | INFO | src.loggers | main.py:27 | Configuracion de asst_... cargado con exito.
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:113 | Config de asistente escrita.
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:118 | Prompt de asistente escrito.
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:29 | Ya existe el repositorio .git en D:\pruebas\proyectos
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:11 | Ejecuando: git remote -v
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:37 | El remoto 'origin' ya existe en la configuración.
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:11 | Ejecuando: git remote get-url origin
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:11 | Ejecuando: git remote set-url origin
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:41 | Se actualizo url del remoto.
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:11 | Ejecuando: git branch -M main
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:11 | Ejecuando: git status --porcelain D:\pruebas\proyectos
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:11 | Ejecuando: git add D:\pruebas\proyectos
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:83 | Archivo agregado: D:\pruebas\proyectos
+2025-11-06_22:06:09 | INFO | src.loggers | functions.py:11 | Ejecuando: git commit -m Commit realizado - 2025-11-06 22:06:09.
+2025-11-06_22:06:10 | INFO | src.loggers | functions.py:86 | Commit realizado: Commit realizado - 2025-11-06 22:06:09.
+2025-11-06_22:06:10 | INFO | src.loggers | functions.py:11 | Ejecuando: git push -u origin main
