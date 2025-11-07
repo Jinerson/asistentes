@@ -36,9 +36,6 @@ def main():
             #iniciar cargado a github
             config_git(BASE_DIR, REPO_URL_T)
             git_commit_and_push(BASE_DIR, BASE_DIR, "Commit realizado")
-
-            #eliminar los archivos termporales que se crearon para comparar las verciones de configuracion de asistentes
-            delete_temp_file(path = assistant_folder)
             
     except APIConnectionError:
         logger.error("Verifique su conexion a internet.")
